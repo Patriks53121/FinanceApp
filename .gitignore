@@ -1,0 +1,70 @@
+# Node / Angular
+**/node_modules/
+**/dist/
+**/tmp/
+**/coverage/
+**/.angular/cache/
+**/out-tsc/
+**/bazel-out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# .NET / MAUI
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.dSYM/
+*.app/
+*.ipa/
+*.apk/
+*.aab/
+
+# Visual Studio / JetBrains
+.vs/
+.idea/
+.vscode/
+*.DotSettings.user
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+secrets.json
+appsettings.*.json
+!appsettings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+.history/
+
+# Test and tooling output
+test-results/
+__screenshots__/
+playwright-report/

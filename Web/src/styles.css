@@ -1,4 +1,14 @@
-
+.index-body {
+  background: linear-gradient(
+    180deg,
+    #111B2B 30%,
+    #172235 50%,
+    #1C293B 70%,
+    #26364C 90%,
+    #ffffff 150%
+  );
+  min-height: 100vh;
+}
 h1 {
   color: var(--color-text-primary);
 }
@@ -7,7 +17,6 @@ p {
 }
 
 button {
-
   display: inline-flex;
   align-items: center;
   justify-content: center;

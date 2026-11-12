@@ -1,1 +1,138 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+  /* =====================================
+     BRAND COLORS
+     ===================================== */
+
+  /* Main brand color.
+     Use for primary buttons, active navigation,
+     links, and important interactive elements. */
+  --color-primary: #1F8064;
+
+  /* Darker green.
+     Use for button hover, pressed states,
+     and darker green accents. */
+  --color-primary-hover: #17664F;
+
+  /* Mint green.
+     Use for positive statistics, income,
+     chart highlights, and success indicators. */
+  --color-primary-light: #72C6A5;
+
+
+  /* =====================================
+     BACKGROUND COLORS
+     ===================================== */
+
+  /* Main website background.
+     Use as the default background for the entire page. */
+  --color-background: #111B2B;
+
+  /* Secondary background.
+     Use for hero sections, alternate sections,
+     footer, and large page containers. */
+  --color-background-secondary: #172235;
+
+  /* Standard card background.
+     Use for cards, content panels, forms,
+     and dashboard widgets. */
+  --color-surface: #1C293B;
+
+  /* Elevated surface.
+     Use for dropdowns, modals, popovers,
+     highlighted cards, and floating panels. */
+  --color-surface-elevated: #26364C;
+
+
+  /* =====================================
+     SECONDARY COLORS
+     ===================================== */
+
+  /* Financial blue.
+     Use for informational elements, links,
+     secondary buttons, and financial charts. */
+  --color-blue: #397DB8;
+
+  /* Gold.
+     Use for warnings, attention indicators,
+     important notices, and premium accents. */
+  --color-warning: #E9B949;
+
+  /* Red.
+     Use for errors, negative financial values,
+     destructive actions, and failed operations. */
+  --color-error: #D95757;
+
+
+  /* =====================================
+     TEXT COLORS
+     ===================================== */
+
+  /* Main text.
+     Use for headings, titles, and primary content. */
+  --color-text-primary: #F1F5F9;
+
+  /* Secondary text.
+     Use for descriptions, subtitles,
+     labels, and supporting information. */
+  --color-text-secondary: #A0AEC0;
+
+  /* Muted text.
+     Use for placeholders, disabled text,
+     timestamps, and less important information. */
+  --color-text-muted: #718096;
+
+  /* Inverse text.
+     Use on green, blue, or other colored buttons. */
+  --color-text-inverse: #FFFFFF;
+
+
+  /* =====================================
+     BORDERS & DIVIDERS
+     ===================================== */
+
+  /* Standard border.
+     Use for card borders, input outlines,
+     separators, and navigation dividers. */
+  --color-border: #304158;
+
+  /* Subtle border.
+     Use for less prominent separators
+     and subtle outlines. */
+  --color-border-subtle: #26364C;
+
+
+  /* =====================================
+     STATUS BACKGROUNDS
+     ===================================== */
+
+  /* Success background.
+     Use behind success messages and
+     positive status labels. */
+  --color-success-bg: #193B35;
+
+  /* Information background.
+     Use behind information messages and tips. */
+  --color-info-bg: #1C3049;
+
+  /* Warning background.
+     Use behind warning messages and notices. */
+  --color-warning-bg: #40371F;
+
+  /* Error background.
+     Use behind error messages and validation feedback. */
+  --color-error-bg: #40272C;
+
+
+  /* =====================================
+     INTERACTION STATES
+     ===================================== */
+
+  /* Disabled controls.
+     Use for inactive buttons and unavailable actions. */
+  --color-disabled: #354357;
+
+  /* Focus outline.
+     Use for keyboard-focused inputs and buttons. */
+  --color-focus: #72C6A5;
+}

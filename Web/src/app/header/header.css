@@ -6,6 +6,10 @@
   margin-left: 10px;
 }
 
+.no-border {
+  border: none;
+}
+
 .button-info {
   margin: 10px;
 }

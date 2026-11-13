@@ -1,17 +1,40 @@
-.index-body {
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-page {
   background: linear-gradient(
     180deg,
     #111B2B 30%,
     #172235 50%,
     #1C293B 70%,
-    #26364C 90%,
-    #ffffff 150%
+    #26364C 100%
   );
   min-height: 100vh;
 }
+
+app-header {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+app-footer {
+  display: block;
+  width: 100%;
+  background: #1C293B;
+  padding: 10px;
+}
+
 h1 {
   color: var(--color-text-primary);
 }
+
 p {
   color: var(--color-text-secondary);
 }
@@ -108,12 +131,11 @@ button:disabled {
   width: 100%;
 }
 
-.header {
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.card-info {
+  background: var(--color-background-secondary);
+  border: 1px solid white;
 }
+
 
 :root {
   /* =====================================

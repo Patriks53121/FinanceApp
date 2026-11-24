@@ -1,15 +1,13 @@
-<img src="favicon.ico" alt="logo" width="64px" height="64px">
+<img src="logo.svg" alt="logo" width="64px" height="64px">
 <nav class="navbar">
-  <button class="nav-link button-outline button-large">Home</button>
-  <button class="nav-link button-outline button-large no-border">About</button>
-  <button class="nav-link button-outline button-large no-border">Contacts</button>
-  <button class="nav-link button-outline button-large no-border">Download</button>
-  <button class="nav-link button-outline button-large no-border">Instructions</button>
+  <button [routerLink]="['']" class="nav-link button-outline button-large">Home</button>
+  <button [routerLink]="['/about']" class="nav-link button-outline button-large no-border">About</button>
+  <button [routerLink]="['/contacts']" class="nav-link button-outline button-large no-border">Contacts</button>
+  <button [routerLink]="['/download']" class="nav-link button-outline button-large no-border">Download</button>
+  <button [routerLink]="['/instructions']" class="nav-link button-outline button-large no-border">Instructions</button>
 </nav>
 <div>
   <button class="button-small button-secondary">Mode <img src="favicon.ico" alt="icon" width="12px"></button>
-  <button class="button-info">Contact us</button>
 </div>
-
 
 

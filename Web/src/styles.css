@@ -27,8 +27,9 @@ app-header {
 app-footer {
   display: block;
   width: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
   background: #1C293B;
-  padding: 10px;
 }
 
 h1 {

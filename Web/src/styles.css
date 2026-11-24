@@ -32,7 +32,13 @@ app-footer {
   background: #1C293B;
 }
 
-h1 {
+app-about {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+h1, h2, h3 {
   color: var(--color-text-primary);
 }
 

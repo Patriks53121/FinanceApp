@@ -1,0 +1,34 @@
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+.about-text {
+  margin: 0 auto;
+  min-width: auto;
+  max-width: 50%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.feedback-container {
+  margin: 30px;
+}
+
+.feedback-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feedback-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  max-width: 15%;
+  min-width: 15%;
+  min-height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}

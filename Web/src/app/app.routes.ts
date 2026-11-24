@@ -4,6 +4,7 @@ import { Contacts } from './pages/contacts/contacts';
 import { About } from './pages/about/about';
 import { Download } from './pages/download/download';
 import { Instructions } from './pages/instructions/instructions';
+import { Feedback } from './feedback/feedback';
 
 export const routes: Routes = [
   { path: '', component: Main, title: 'Home' },
@@ -11,4 +12,5 @@ export const routes: Routes = [
   { path: 'about', component:  About, title: 'About' },
   { path: 'download', component: Download, title: 'Download' },
   { path: 'instructions', component: Instructions, title: 'Instructions' },
+  { path: 'feedback', component: Feedback, title: 'Feedback' },
 ];

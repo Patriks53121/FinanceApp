@@ -1,0 +1,98 @@
+textarea {
+  resize: none;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+td > p {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+tbody {
+  background: white;
+}
+td {
+  width: 100%;
+}
+p > img {
+  width: 48px;
+  height: 24px;
+  padding-right: 5px;
+}
+.page-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+}
+
+.feedback-form-container {
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 100px;
+  padding: 0 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: var(--color-background-secondary);
+}
+
+.feedback-form {
+  display: flex;
+  padding: 10px 10px 20px;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  background: var(--color-background);
+  padding: 5px;
+}
+.input::placeholder {
+  padding: 5px;
+  color: white;
+}
+
+.contacts {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.contacts h1 {
+  font-size: 50px;
+}
+.contacts p {
+  font-size: 20px
+}
+
+.FAQ-container {
+  width: 500px;
+  margin-top: 100px;
+  padding: 0 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: var(--color-background-secondary);
+}
+
+.feedback-container {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.feedback-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+}

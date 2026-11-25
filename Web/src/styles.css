@@ -14,6 +14,7 @@ html, body {
     #26364C 100%
   );
   min-height: 100vh;
+  padding-bottom: 30px;
 }
 
 app-header {
@@ -42,8 +43,17 @@ h1, h2, h3 {
   color: var(--color-text-primary);
 }
 
-p {
+p, label{
   color: var(--color-text-secondary);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-secondary);
+}
+
+a:hover {
+  color: var(--color-text-primary);
 }
 
 button {

@@ -7,8 +7,12 @@
 
 button {
   border-radius: 50px;
+  background-color: var(--color-primary-hover);
   color: black;
   font-weight: bold;
+}
+button:hover {
+  background-color: var(--color-primary);
 }
 
 .main-body {

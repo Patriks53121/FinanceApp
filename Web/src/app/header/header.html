@@ -1,13 +1,42 @@
 <img src=".//public/images/logo.svg" alt="logo" width="64px" height="64px">
 <nav class="navbar">
-  <button [routerLink]="['']" class="nav-link button-outline button-large">Home</button>
-  <button [routerLink]="['/about']" class="nav-link button-outline button-large">About</button>
-  <button [routerLink]="['/contacts']" class="nav-link button-outline button-large">Contacts</button>
-  <button [routerLink]="['/download']" class="nav-link button-outline button-large">Download</button>
-  <button [routerLink]="['/instructions']" class="nav-link button-outline button-large">Instructions</button>
+  <button [routerLink]="['']" class="nav-link button-outline button-large"
+          routerLinkActive
+          #homeActive="routerLinkActive"
+          [routerLinkActiveOptions]="{ exact: true }"
+          [class.no-border]="!homeActive.isActive"
+  >
+    Home
+  </button>
+  <button [routerLink]="['/about']" class="nav-link button-outline button-large"
+          routerLinkActive
+          #aboutActive="routerLinkActive"
+          [class.no-border]="!aboutActive.isActive"
+  >
+    About
+  </button>
+  <button [routerLink]="['/contacts']" class="nav-link button-outline button-large"
+          routerLinkActive
+          #contactsActive="routerLinkActive"
+          [class.no-border]="!contactsActive.isActive"
+  >
+    Contacts
+  </button>
+  <button [routerLink]="['/download']" class="nav-link button-outline button-large"
+          routerLinkActive
+          #downloadActive="routerLinkActive"
+          [class.no-border]="!downloadActive.isActive"
+  >
+    Download
+  </button>
+  <button [routerLink]="['/instructions']" class="nav-link button-outline button-large"
+          routerLinkActive
+          #instructionsActive="routerLinkActive"
+          [class.no-border]="!instructionsActive.isActive"
+  >
+    Instructions
+  </button>
 </nav>
-<div>
-  <button class="button-small button-secondary">Mode <img src=".//public/icons/favicon.ico" alt="icon" width="12px"></button>
-</div>
+<div></div>
 
 

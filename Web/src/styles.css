@@ -24,7 +24,6 @@ html, body {
     #26364C 100%
   );
   min-height: 100vh;
-  padding-bottom: 30px;
 }
 
 app-header {

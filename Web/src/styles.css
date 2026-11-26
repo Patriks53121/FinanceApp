@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Anta-regular;
+  src: url("../public/fonts/Anta-Regular.ttf");
+}
+@font-face {
+  font-family: RacingSansOne-Regular;
+  src: url("../public/fonts/RacingSansOne-Regular.ttf");
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -41,15 +51,16 @@ app-about {
 
 h1, h2, h3 {
   color: var(--color-text-primary);
+  font-family: RacingSansOne-Regular, sans-serif;
 }
 
-p, label{
+p, label, ol, ul, li, a{
+  font-family: Anta-regular, sans-serif;
   color: var(--color-text-secondary);
 }
 
 a {
   text-decoration: none;
-  color: var(--color-text-secondary);
 }
 
 a:hover {

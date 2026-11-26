@@ -1,1 +1,37 @@
-<p>download works!</p>
+<h1>How to download?</h1>
+<div class="download-container">
+  <div class="left-download-container">
+    <h2>GitHub</h2>
+    <p>
+      You can download the source code from github, make changes, or just build the app by yourself.
+    </p>
+    <ol>
+      <li>Click button "Download source"</li>
+      <li>Click green button "Code" and chose "Download ZIP"</li>
+      <li>Extract the ZIP file</li>
+      <li>Open the extracted folder with code editor</li>
+      <li>Install all necessary plugins and packages to your computer</li>
+      <li>Review code, there is instruction about it, make changes if want</li>
+      <li>Connect your device to your computer via cable</li>
+      <li>On phone allow debug</li>
+      <li>Select your phone for debug</li>
+      <li>Run and build project to your phone</li>
+      <li>App will open automatic, and in future will be on your home screen</li>
+    </ol>
+    <button (click)="downloadSource()">Download Source</button>
+  </div>
+  <div class="right-download-container">
+    <h2>APK file</h2>
+    <p>
+      You can download directly the APK file and install it on your device.<br>
+      Steps:
+    </p>
+    <ol>
+      <li>Click button "Download APK"</li>
+      <li>Download APK file</li>
+      <li>Open it and just download it</li>
+      <li>On desktop will appear app</li>
+    </ol>
+    <button [routerLink]="['/download/apk']">Download APK</button>
+  </div>
+</div>

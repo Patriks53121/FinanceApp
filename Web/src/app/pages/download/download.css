@@ -1,0 +1,12 @@
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.left-download-container {
+  width: 350px;
+}
+.right-download-container {
+  width: 350px;
+}
